@@ -1,7 +1,7 @@
 import './css/App.css'
 import { Favorites } from './pages/Favorites'
 import { Home } from './pages/Home'
-import { Routes, Route } from "react-router-dom"
+import { BrowserRouter,Routes, Route } from "react-router-dom"
 import { NavBar } from './components/NavBar'
 import { MovieProvider } from "./contexts/MovieContext"
 function App() {
@@ -10,10 +10,10 @@ function App() {
       <MovieProvider>
         <NavBar></NavBar>
         <main className="main-content">
-          <Routes>
-            <Route path="/" element={<Home></Home>}></Route>
-            <Route path="/favorite" element={<Favorites></Favorites>}></Route>
-          </Routes>
+            <Routes >
+              <Route path="/" element={<Home></Home>}></Route>
+              <Route path="/favorite" element={<Favorites></Favorites>}></Route>
+            </Routes>
         </main>
       </MovieProvider>
     </>
