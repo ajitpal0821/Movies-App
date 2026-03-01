@@ -44,7 +44,8 @@ VITE_API_KEY=your_api_key_here
 src/
 ├── components/      # Reusable UI components
 ├── pages/           # Page components
-├── hooks/           # Custom React hooks
+├── services/        # API calls and external service logic
+├── css/             # Global and componenstyles
 └── App.jsx          # Root component
 ```
 
