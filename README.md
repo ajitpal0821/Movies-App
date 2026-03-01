@@ -4,7 +4,7 @@ A responsive movie discovery application built with React and Vite,
 allowing users to search and explore movies using real-time data.
 
 ## 🚀 Live Demo
-[View Live](#) https://ajitpal0821.github.io/Movies-App<!-- Add your Vercel/Netlify link here -->
+https://ajitpal0821.github.io/Movies-App<!-- Add your Vercel/Netlify link here -->
 
 ## ✨ Features
 - 🔍 Search movies in real-time
